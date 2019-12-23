@@ -80,9 +80,10 @@ public class LeapYearCalculator {
 
         //print out the copy right unicode
         char copyRight =  '\u00A9';
-        System.out.println("\n\n");
-        System.out.printf("%25s", "----------------------");
+        System.out.println("\n");
+        System.out.printf("%-1s", "---------------------------");
         System.out.println();
         System.out.println("App written by: " + copyRight + " Amir 2019");
+        System.out.printf("%-1s", "---------------------------");
     }
 }
