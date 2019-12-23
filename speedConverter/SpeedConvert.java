@@ -7,6 +7,7 @@ public class SpeedConvert {
     public static void main(String[] args){
 
         //pass in any value for kilometers
+        //Note: this is only showing for converting from kph to mph
         double kilometersPerHour = toMilesPerHour(75.114);
         if(kilometersPerHour > 0){
             printConversion(kilometersPerHour);
