@@ -2,7 +2,7 @@ package com.secondminutes;
 
 import java.text.DecimalFormat;
 
-public class SecondAndMessage {
+public class SecondsAndMinutes {
 
     public static void main(String[] args) {
 
