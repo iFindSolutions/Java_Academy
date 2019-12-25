@@ -60,4 +60,19 @@ public class sumOdds {
         }
         return sum;
     }
+    
+    /**
+     * This is the footer method to show copyRight
+     * by AMIR AYOUB 2019
+     */
+    public static void footerMessage(){
+
+        //print out the copy right unicode
+        char copyRight =  '\u00A9';
+        System.out.println("\n");
+        System.out.printf("%-1s", "---------------------------");
+        System.out.println();
+        System.out.println("App written by: " + copyRight + " Amir 2019");
+        System.out.printf("%-1s", "---------------------------");
+    }
 }
